@@ -13,9 +13,9 @@
 
 Отдельный репозиторий: https://github.com/mlp09w-arch/kr2-bootstrap-shop
 
-GitHub Pages необходимо включить в настройках репозитория; публикация пока не подтверждена.
-После загрузки файлов в GitHub включите Settings → Pages → Deploy from a branch → main → / (root).
-Ожидаемый адрес после публикации: https://mlp09w-arch.github.io/kr2-bootstrap-shop/ (не является подтверждением работающей публикации).
+GitHub Pages: https://mlp09w-arch.github.io/kr2-bootstrap-shop/
+
+Публикация настроена из ветки `main`, папка `/ (root)`. Сборка и развёртывание GitHub Pages успешно завершились; результат подтверждён в GitHub Actions.
 
 ## Структура
 
