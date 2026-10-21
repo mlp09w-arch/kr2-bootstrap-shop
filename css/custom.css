@@ -6,19 +6,6 @@
 body {
   color: #24332c;
   background: #fcfcf9;
-  min-height: 100vh;
-  min-height: 100dvh;
-  display: flex;
-  flex-direction: column;
-}
-
-body > main {
-  flex: 1 0 auto;
-}
-
-body > header,
-body > footer {
-  flex-shrink: 0;
 }
 
 .btn-primary {
@@ -41,12 +28,6 @@ body > footer {
 
 a {
   color: #245a43;
-}
-
-.brand-dot {
-  font-size: 0.55rem;
-  margin-left: 0.25rem;
-  color: #d4aa55;
 }
 
 .hero {

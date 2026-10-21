@@ -12,16 +12,16 @@
     <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/custom.css" />
   </head>
-  <body>
+  <body class="d-flex flex-column min-vh-100">
     <a class="visually-hidden-focusable position-absolute p-3 bg-white" href="#main-content">
       Перейти к содержимому
     </a>
 
-    <header class="sticky-top bg-white border-bottom">
+    <header class="sticky-top bg-white border-bottom flex-shrink-0">
       <nav class="navbar navbar-expand-lg" aria-label="Основная навигация">
         <div class="container">
           <a class="navbar-brand fw-bold fs-3" href="index.html">
-            Свет<span class="text-success">Дом</span><span class="brand-dot" aria-hidden="true">●</span>
+            Свет<span class="text-success">Дом</span>
           </a>
           <button
             class="navbar-toggler"
@@ -49,7 +49,7 @@
       </nav>
     </header>
 
-    <main class="container py-4" id="main-content">
+    <main class="container py-4 flex-grow-1 flex-shrink-0" id="main-content">
       <h1>Ваша новая лампа — уже ближе</h1>
       <p class="text-body-secondary">Выберите модель и заполните контактные данные.</p>
       <div class="row g-4 mt-2">
@@ -228,7 +228,7 @@
       </div>
     </main>
 
-    <footer class="bg-dark text-white mt-5 py-5">
+    <footer class="bg-dark text-white mt-5 py-5 flex-shrink-0">
       <div class="container">
         <div class="row g-4">
           <div class="col-12 col-md-6">
