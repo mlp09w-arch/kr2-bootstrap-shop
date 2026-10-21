@@ -76,13 +76,100 @@
             </div>
           </div>
           <div class="col-12 col-lg-5">
-            <img
-              class="hero-image"
-              src="images/lamp-green.webp"
-              alt="Зелёная настольная лампа Лайм"
-              width="900"
-              height="900"
-            />
+            <div
+              id="lampCarousel"
+              class="carousel slide"
+              data-bs-theme="dark"
+              data-bs-ride="carousel"
+              data-bs-interval="4000"
+              data-bs-pause="hover"
+              aria-label="Настольные лампы СветДом"
+            >
+              <div class="carousel-indicators">
+                <button
+                  type="button"
+                  data-bs-target="#lampCarousel"
+                  data-bs-slide-to="0"
+                  class="active"
+                  aria-current="true"
+                  aria-label="Лампа «Лайм»"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#lampCarousel"
+                  data-bs-slide-to="1"
+                  aria-label="Лампа «Классика»"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#lampCarousel"
+                  data-bs-slide-to="2"
+                  aria-label="Лампа «Нуар»"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#lampCarousel"
+                  data-bs-slide-to="3"
+                  aria-label="Лампа «Лесная птица»"
+                ></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    class="d-block hero-image"
+                    src="images/lamp-green.webp"
+                    alt="Настольная лампа «Лайм»"
+                    width="900"
+                    height="900"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    class="d-block hero-image"
+                    src="images/lamp-beige.webp"
+                    alt="Настольная лампа «Классика»"
+                    width="900"
+                    height="900"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    class="d-block hero-image"
+                    src="images/lamp-black.webp"
+                    alt="Настольная лампа «Нуар»"
+                    width="900"
+                    height="900"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    class="d-block hero-image"
+                    src="images/lamp-bird.webp"
+                    alt="Настольная лампа «Лесная птица»"
+                    width="900"
+                    height="900"
+                  />
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#lampCarousel"
+                data-bs-slide="prev"
+              >
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Предыдущая лампа</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#lampCarousel"
+                data-bs-slide="next"
+              >
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Следующая лампа</span>
+              </button>
+            </div>
           </div>
         </div>
       </section>
